@@ -1,0 +1,95 @@
+html {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+h1,h2 {
+    font-size: 2em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.title {
+    margin: auto;    
+    display: inline;
+    text-align: center;
+}
+
+.nav-bar {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+}
+
+.body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.pageTitle {
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-color: #f2f2f2;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-size: 16pt;
+}
+
+.content {
+    background-color: #f2f2f2;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.albumArt {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+
+}
+
+.albumReview {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+}
+
+.albumReviewTitle {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.albumReviewContent {
+
+}
