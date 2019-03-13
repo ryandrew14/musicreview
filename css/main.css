@@ -1,5 +1,5 @@
 html {
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 h1,h2 {
@@ -28,13 +28,25 @@ a {
     display: flex;
     justify-content: space-evenly;
     padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #f2f2f2;
+    padding-bottom: 20px;
+
+    border-bottom-size: 1px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+}
+
+.nav-bar-elem {
+    font-size: 16pt;
 }
 
 .body {
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.wrap {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .pageTitle {
@@ -48,8 +60,22 @@ a {
     border-radius: 2px;
     margin-top: 20px;
     margin-bottom: 10px;
-
     font-size: 16pt;
+}
+
+.grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+.grid-icon {
+  width: 95%;
+  min-width: 50px;
+  height: 95%;
+  min-height: 50px;
+  border: 1px solid #cdcdcd;
 }
 
 .content {
@@ -63,7 +89,6 @@ a {
     border-bottom-style: solid;
     border-left-style: solid;
     border-right-style: solid;
-
     display: flex;
     flex-direction: row;
 
@@ -73,6 +98,8 @@ a {
     width: 220px;
     height: 220px;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
